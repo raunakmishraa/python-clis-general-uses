@@ -35,7 +35,7 @@ for i in range(24):
 
     content = ""
 
-    msg['Subject'] = 'Selection Outcome - Hult Prize at IOE, Pulchowk Campus Organizing Committee 2025/26'
+    msg['Subject'] = 'Your Subject Here'
     msg['From'] = email_id
     msg['To'] = eMail
     part = MIMEText(html, "html")
@@ -69,4 +69,5 @@ for i in range(24):
         del msg['To']
         del eMail
         print("Email sent successfully...")
+
 
